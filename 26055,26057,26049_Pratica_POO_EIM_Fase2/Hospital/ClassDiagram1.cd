@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hospital.Consultorio" Collapsed="true">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIBAAAAAAAAACAAAgQAgEgAAAAIAAEAEgAAABACg=</HashCode>
+      <FileName>Consultorio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hospital.SalaaEspera" Collapsed="true">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAACAAAAAIAIAgAAAAAAACAAIAABAAAAAAQA=</HashCode>
+      <FileName>SalaaEspera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hospital.Sistema" Collapsed="true">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQIAAAAACAAgAAAAAAQAAAIAAAAAADAAQAAAQAIAA=</HashCode>
+      <FileName>Sistema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hospital.Local" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Local.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Hospital.Estado" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Local.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

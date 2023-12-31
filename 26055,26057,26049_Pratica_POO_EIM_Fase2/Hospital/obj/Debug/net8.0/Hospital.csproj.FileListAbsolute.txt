@@ -1,0 +1,15 @@
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\bin\Debug\net8.0\Hospital.deps.json
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\bin\Debug\net8.0\Hospital.dll
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\bin\Debug\net8.0\Hospital.pdb
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\bin\Debug\net8.0\Intervenientes.dll
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\bin\Debug\net8.0\Intervenientes.pdb
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\Hospital.csproj.AssemblyReference.cache
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\Hospital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\Hospital.AssemblyInfoInputs.cache
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\Hospital.AssemblyInfo.cs
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\Hospital.csproj.CoreCompileInputs.cache
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\Hospital.csproj.CopyComplete
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\Hospital.dll
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\refint\Hospital.dll
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\Hospital.pdb
+C:\Users\Margarida Vasco\OneDrive\Pi (2ano)\26055,26057,26049_Pratica_POO_EIM_Fase2\Hospital\obj\Debug\net8.0\ref\Hospital.dll

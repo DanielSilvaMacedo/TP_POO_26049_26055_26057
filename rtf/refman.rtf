@@ -1,0 +1,2990 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment POO_FASE2  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1.0 \par
+}}POO_FASE2}
+{\comment Gerado por doxygen 1.9.8.}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt POO_FASE2}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Vers\'E3o 1.0\par\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CDndice\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos namespaces\par \pard\plain 
+{\tc \v \'CDndice dos namespaces}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de pacotes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Lista de pacotes com uma breve descri\'E7\'E3o (se dispon\'EDvel):}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b GereHospital} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Hospital} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Intervenientes} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice da hierarquia\par \pard\plain 
+{\tc \v \'CDndice da hierarquia}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Hierarquia de classes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Esta lista de heran\'E7as est\'E1 organizada, dentro do poss\'EDvel, por ordem alfab\'E9tica:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Hospital.Local\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Hospital.Consultorio\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Hospital.SalaaEspera\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+Intervenientes.Pessoa\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEF \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Intervenientes.Doente\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Intervenientes.Medico\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+Hospital.Sistema\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos componentes\par \pard\plain 
+{\tc \v \'CDndice dos componentes}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de componentes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Lista de classes, estruturas, uni\'F5es e interfaces com uma breve descri\'E7\'E3o:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Hospital.Consultorio} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Intervenientes.Doente} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Hospital.Local} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Intervenientes.Medico} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Intervenientes.Pessoa} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Hospital.SalaaEspera} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Hospital.Sistema} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos ficheiros\par \pard\plain 
+{\tc \v \'CDndice dos ficheiros}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de ficheiros\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Lista de todos os ficheiros com uma breve descri\'E7\'E3o:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/{\b Program.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/obj/Debug/{\b .NETFramework,Version=v4.7.2.AssemblyAttributes.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/Properties/{\b AssemblyInfo.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/{\b Consultorio.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/{\b Local.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/{\b SalaaEspera.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/{\b Sistema.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/{\b .NETCoreApp,Version=v8.0.AssemblyAttributes.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/{\b Hospital.AssemblyInfo.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/{\b Hospital.GlobalUsings.g.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/{\b Doente.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/{\b Medico.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/{\b Pessoa.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/{\b .NETCoreApp,Version=v8.0.AssemblyAttributes.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/{\b Intervenientes.AssemblyInfo.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/{\b Intervenientes.GlobalUsings.g.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documenta\'E7\'E3o dos namespaces\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao namespace GereHospital\par \pard\plain 
+{\tc\tcl2 \v GereHospital}
+{\xe \v GereHospital}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Program}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao namespace Hospital\par \pard\plain 
+{\tc\tcl2 \v Hospital}
+{\xe \v Hospital}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Consultorio}\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Local}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b SalaaEspera}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Sistema}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumera\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Estado} \{ {\b VAZIO}
+, {\b OCUPADO}
+ \}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos valores da enumera\'E7\'E3o\par
+\pard\plain 
+{\xe \v Estado\:Hospital}
+{\xe \v Hospital\:Estado}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b Hospital.Estado}}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Valores de enumera\'E7\'F5es:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v VAZIO\:Hospital}
+{\xe \v Hospital\:VAZIO}
+{\qr VAZIO{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\cell }{\cell }{\row }
+{\xe \v OCUPADO\:Hospital}
+{\xe \v Hospital\:OCUPADO}
+{\qr OCUPADO{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\cell }{\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10     \{\par
+11         VAZIO,\par
+12         OCUPADO,\par
+13     \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao namespace Intervenientes\par \pard\plain 
+{\tc\tcl2 \v Intervenientes}
+{\xe \v Intervenientes}
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Doente}\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Medico}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Pessoa}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumera\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Pulseira} \{ {\b VERDE}
+, {\b AMARELA}
+, {\b VERMELHA}
+, {\b NAO_ESPECIFICADA}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Prioridade} \{ {\b POUCO_URGENTE}
+, {\b URGENTE}
+, {\b MUITO_URGENTE}
+, {\b NAO_ESPECIFICADO}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Especialidade} \{ {\b CARDIOLOGIA}
+, {\b UROLOGIA}
+, {\b PEDIATRIA}
+, {\b CIRUGIA}
+, {\b ORTOPEDIA}
+, {\b NAO_ESPECIFICADA}
+ \}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos valores da enumera\'E7\'E3o\par
+\pard\plain 
+{\xe \v Especialidade\:Intervenientes}
+{\xe \v Intervenientes\:Especialidade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b Intervenientes.Especialidade}}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Valores de enumera\'E7\'F5es:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v CARDIOLOGIA\:Intervenientes}
+{\xe \v Intervenientes\:CARDIOLOGIA}
+{\qr CARDIOLOGIA{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+\cell }{\cell }{\row }
+{\xe \v UROLOGIA\:Intervenientes}
+{\xe \v Intervenientes\:UROLOGIA}
+{\qr UROLOGIA{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+\cell }{\cell }{\row }
+{\xe \v PEDIATRIA\:Intervenientes}
+{\xe \v Intervenientes\:PEDIATRIA}
+{\qr PEDIATRIA{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+\cell }{\cell }{\row }
+{\xe \v CIRUGIA\:Intervenientes}
+{\xe \v Intervenientes\:CIRUGIA}
+{\qr CIRUGIA{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+\cell }{\cell }{\row }
+{\xe \v ORTOPEDIA\:Intervenientes}
+{\xe \v Intervenientes\:ORTOPEDIA}
+{\qr ORTOPEDIA{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+\cell }{\cell }{\row }
+{\xe \v NAO_ESPECIFICADA\:Intervenientes}
+{\xe \v Intervenientes\:NAO_ESPECIFICADA}
+{\qr NAO_ESPECIFICADA{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+\cell }{\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10     \{\par
+11         CARDIOLOGIA,\par
+12         UROLOGIA,\par
+13         PEDIATRIA,\par
+14         CIRUGIA,\par
+15         ORTOPEDIA,\par
+16         NAO_ESPECIFICADA,\par
+17     \}\par
+}
+}
+{\xe \v Prioridade\:Intervenientes}
+{\xe \v Intervenientes\:Prioridade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b Intervenientes.Prioridade}}}
+\par
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Valores de enumera\'E7\'F5es:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v POUCO_URGENTE\:Intervenientes}
+{\xe \v Intervenientes\:POUCO_URGENTE}
+{\qr POUCO_URGENTE{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+\cell }{\cell }{\row }
+{\xe \v URGENTE\:Intervenientes}
+{\xe \v Intervenientes\:URGENTE}
+{\qr URGENTE{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+\cell }{\cell }{\row }
+{\xe \v MUITO_URGENTE\:Intervenientes}
+{\xe \v Intervenientes\:MUITO_URGENTE}
+{\qr MUITO_URGENTE{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+\cell }{\cell }{\row }
+{\xe \v NAO_ESPECIFICADO\:Intervenientes}
+{\xe \v Intervenientes\:NAO_ESPECIFICADO}
+{\qr NAO_ESPECIFICADO{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+\cell }{\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 18     \{\par
+19         POUCO_URGENTE,\par
+20         URGENTE,\par
+21         MUITO_URGENTE,\par
+22         NAO_ESPECIFICADO,\par
+23     \}\par
+}
+}
+{\xe \v Pulseira\:Intervenientes}
+{\xe \v Intervenientes\:Pulseira}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b Intervenientes.Pulseira}}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Valores de enumera\'E7\'F5es:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v VERDE\:Intervenientes}
+{\xe \v Intervenientes\:VERDE}
+{\qr VERDE{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+\cell }{\cell }{\row }
+{\xe \v AMARELA\:Intervenientes}
+{\xe \v Intervenientes\:AMARELA}
+{\qr AMARELA{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+\cell }{\cell }{\row }
+{\xe \v VERMELHA\:Intervenientes}
+{\xe \v Intervenientes\:VERMELHA}
+{\qr VERMELHA{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+\cell }{\cell }{\row }
+{\xe \v NAO_ESPECIFICADA\:Intervenientes}
+{\xe \v Intervenientes\:NAO_ESPECIFICADA}
+{\qr NAO_ESPECIFICADA{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+\cell }{\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10     \{\par
+11         VERDE,\par
+12         AMARELA,\par
+13         VERMELHA,\par
+14         NAO_ESPECIFICADA,\par
+15     \}\par
+}
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documenta\'E7\'E3o da classe{\tc \v Documenta\'E7\'E3o da classe}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia \'E0 classe Hospital.Consultorio\par \pard\plain 
+{\tc\tcl2 \v Hospital.Consultorio}
+{\xe \v Hospital.Consultorio}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+Diagrama de heran\'E7as da classe Hospital.Consultorio{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_hospital_1_1_consultorio.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Consultorio} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construtor por omiss\'E3o de um consultorio que inicializa propriedades com valores padr\'E3o. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Consultorio} (int num, {\b Especialidade} esp, {\b Estado} est, {\b Medico} medico, {\b Doente} doente)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+construtor que premite uma personaliza\'E7\'E3o de alguns propriedades }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b InsereMedicoConsultorio} ({\b Medico} m1)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+metodo que insere um medico no consultorio, verificando se o medico j\'E1 existe }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b ExisteMedicoConsultorio} ({\b Medico} m1)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+metodo que verifica se um medico ja existe no consultorio }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b ExisteDoenteConsultorio} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b AdicionarMedicoConsultorio} ({\b Medico} medico)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b AdicionarDoenteConsultorio} ({\b Doente} doente, {\b Medico} medico)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b numero}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Medico} {\b medicoResponsavel}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Doente} {\b doenteConsultorio}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Propriedades\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b Numero}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o numero do consultorio }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Especialidade} {\b Especialidade}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir a especialidade }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Estado} {\b Estado}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o estado do consultorio }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static int {\b TotCon}{\f2  [get]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter o total de consultorios criados }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Propriedades herdados de {\b Hospital.Local}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Estado} {\b estado}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos Construtores & Destrutor\par
+\pard\plain 
+{\xe \v Consultorio\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:Consultorio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Hospital.Consultorio.Consultorio ()}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construtor por omiss\'E3o de um consultorio que inicializa propriedades com valores padr\'E3o. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 39         \{\par
+40             numero = 1;\par
+41             especialidade = Especialidade.PEDIATRIA;\par
+42             estado = Estado.OCUPADO;\par
+43             {\cf20 //medicoResponsavel = ;}\par
+44             {\cf20 //doenteConsultorio = ;}\par
+45             totCon++;\par
+46         \}\par
+}
+}
+{\xe \v Consultorio\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:Consultorio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Hospital.Consultorio.Consultorio (int  {\i num}, {\b Especialidade}  {\i esp}, {\b Estado}  {\i est}, {\b Medico}  {\i medico}, {\b Doente}  {\i doente})}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+construtor que premite uma personaliza\'E7\'E3o de alguns propriedades }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i num} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i esp} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i est} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i medico} \cell }{\cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 56         \{\par
+57             numero = num;\par
+58             especialidade = esp;\par
+59             estado = est;\par
+60             medicoResponsavel = medico;\par
+61             doenteConsultorio = doente;\par
+62             TotMedicos = 0;\par
+63             totCon++;\par
+64         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v AdicionarDoenteConsultorio\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:AdicionarDoenteConsultorio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.Consultorio.AdicionarDoenteConsultorio ({\b Doente}  {\i doente}, {\b Medico}  {\i medico})}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 192         \{\par
+193             {\cf19 if} (doenteConsultorio == {\cf17 null})\par
+194             \{\par
+195                 {\cf19 if} (medicoResponsavel == medico)\par
+196                 \{\par
+197                     doenteConsultorio = doente;\par
+198                     Console.WriteLine({\cf22 "Doente \{doente.nome\} adicionado ao consult\'F3rio \{numero\} com o m\'E9dico \{medico.Nome\} como respons\'E1vel."});\par
+199                 \}\par
+200                 {\cf19 else}\par
+201                 \{\par
+202                     Console.WriteLine({\cf22 "O m\'E9dico \{medico.nome\} n\'E3o est\'E1 atribu\'EDdo ao consult\'F3rio \{Numero\}."});\par
+203                 \}\par
+204             \}\par
+205             {\cf19 else}\par
+206             \{\par
+207                 Console.WriteLine({\cf22 "O consult\'F3rio \{numero\} j\'E1 possui um doente."});\par
+208             \}\par
+209         \}\par
+}
+}
+{\xe \v AdicionarMedicoConsultorio\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:AdicionarMedicoConsultorio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.Consultorio.AdicionarMedicoConsultorio ({\b Medico}  {\i medico})}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 179         \{\par
+180             {\cf19 if} (medicoResponsavel == {\cf17 null})\par
+181             \{\par
+182                 medicoResponsavel = medico;\par
+183                 Console.WriteLine({\cf22 "M\'E9dico \{medico.nome\} atribu\'EDdo ao consult\'F3rio \{numero\}."});\par
+184             \}\par
+185             {\cf19 else}\par
+186             \{\par
+187                 Console.WriteLine({\cf22 "O consult\'F3rio \{numero\} j\'E1 possui um m\'E9dico atribu\'EDdo."});\par
+188             \}\par
+189         \}\par
+}
+}
+{\xe \v ExisteDoenteConsultorio\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:ExisteDoenteConsultorio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Hospital.Consultorio.ExisteDoenteConsultorio ()}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 171         \{\par
+172             {\cf19 return} doenteConsultorio != {\cf17 null};\par
+173         \}\par
+}
+}
+{\xe \v ExisteMedicoConsultorio\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:ExisteMedicoConsultorio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Hospital.Consultorio.ExisteMedicoConsultorio ({\b Medico}  {\i m1})}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+metodo que verifica se um medico ja existe no consultorio }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i m1} \cell }{\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+\par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 166         \{\par
+167             {\cf19 return} medicoResponsavel != {\cf17 null};\par
+168         \}\par
+}
+}
+{\xe \v InsereMedicoConsultorio\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:InsereMedicoConsultorio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Hospital.Consultorio.InsereMedicoConsultorio ({\b Medico}  {\i m1})}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+metodo que insere um medico no consultorio, verificando se o medico j\'E1 existe }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i m1} \cell }{\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+\par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 152         \{\par
+153             {\cf20 //Valida\'E7\'F5es}\par
+154             {\cf19 if} (ExisteMedicoConsultorio(m1)) {\cf19 return} {\cf17 false};\par
+155             medicoResponsavel = m1;\par
+156             TotMedicos++;\par
+157             {\cf19 return} {\cf17 true};\par
+158         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos dados membro\par
+\pard\plain 
+{\xe \v doenteConsultorio\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:doenteConsultorio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Doente} Hospital.Consultorio.doenteConsultorio}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v medicoResponsavel\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:medicoResponsavel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Medico} Hospital.Consultorio.medicoResponsavel}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v numero\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:numero}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Hospital.Consultorio.numero}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das propriedades\par
+\pard\plain 
+{\xe \v Especialidade\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:Especialidade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Especialidade} Hospital.Consultorio.Especialidade{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir a especialidade }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 100         \{\par
+101             {\cf17 set}\par
+102             \{\par
+103                 especialidade = value;\par
+104             \}\par
+105             {\cf17 get}\par
+106             \{\par
+107                 {\cf19 return} especialidade;\par
+108             \}\par
+109         \}\par
+}
+}
+{\xe \v Estado\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:Estado}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Estado} Hospital.Consultorio.Estado{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o estado do consultorio }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 115         \{\par
+116             {\cf17 set}\par
+117             \{\par
+118                 estado = value;\par
+119             \}\par
+120             {\cf17 get}\par
+121             \{\par
+122                 {\cf19 return} estado;\par
+123             \}\par
+124         \}\par
+}
+}
+{\xe \v Numero\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:Numero}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Hospital.Consultorio.Numero{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o numero do consultorio }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 83         \{\par
+84             {\cf20 //inserir valores}\par
+85             {\cf17 set}\par
+86             \{\par
+87                 numero = value;\par
+88             \}\par
+89             {\cf20 //manda para fora valores}\par
+90             {\cf17 get}\par
+91             \{\par
+92                 {\cf19 return} numero;\par
+93             \}\par
+94         \}\par
+}
+}
+{\xe \v TotCon\:Hospital.Consultorio}
+{\xe \v Hospital.Consultorio\:TotCon}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Hospital.Consultorio.TotCon{\f2 [static]}, {\f2 [get]}}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter o total de consultorios criados }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 133         \{\par
+134             {\cf17 get}\par
+135             \{\par
+136                 {\cf19 return} totCon;\par
+137             \}\par
+138             {\cf20 //set\{\} //valor apenas controlado internamente}\par
+139         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir do seguinte ficheiro:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/{\b Consultorio.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia \'E0 classe Intervenientes.Doente\par \pard\plain 
+{\tc\tcl2 \v Intervenientes.Doente}
+{\xe \v Intervenientes.Doente}
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+Diagrama de heran\'E7as da classe Intervenientes.Doente{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_intervenientes_1_1_doente.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Doente} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construtor por omiss\'E3o de um doente Inicializa os valores padrao para um doente. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Doente} (int Id, string {\b nome}, int {\b nif}, int {\b nutente}, {\b Pulseira} pul, {\b Prioridade} pri, string hist, string sint)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+construtor que premite a inicializacao personalizada dos atributos do doente }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override string {\b ToString} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Subcreve o metodo ToString par fornecer uma ficha do doente. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b AtualizarHistorico} (string {\b historico})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b ObterInformacao} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b idDoente}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b nif}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b nutente}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Pulseira} {\b pulseira}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Prioridade} {\b prioridade}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b historico}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b sintomas}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Propriedades\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b IdDoente}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b Nome}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o nome do doente }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b Nif}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o nif do doente }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b Nutente}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o n.utente do doente }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Pulseira} {\b Pulseira}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir a pulseira do doente }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Prioridade} {\b Prioridade}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b Historico}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o historico do doente }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b Sintomas}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o sintomas do doente }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static int {\b TotDoe}{\f2  [get]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter o total de doentes criados }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Propriedades herdados de {\b Intervenientes.Pessoa}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b nome}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos Construtores & Destrutor\par
+\pard\plain 
+{\xe \v Doente\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:Doente}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Intervenientes.Doente.Doente ()}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construtor por omiss\'E3o de um doente Inicializa os valores padrao para um doente. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 55         \{\par
+56             idDoente = 01;\par
+57             nome = {\cf22 "Manel"};\par
+58             nif = 258369147;\par
+59             nutente = 147258369;\par
+60             pulseira = Pulseira.VERDE;\par
+61             prioridade = Prioridade.POUCO_URGENTE;\par
+62             historico = {\cf22 "internado, diabetico"};\par
+63             sintomas = {\cf22 "tosse"};\par
+64             totDoe++;\par
+65         \}\par
+}
+}
+{\xe \v Doente\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:Doente}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Intervenientes.Doente.Doente (int  {\i Id}, string  {\i nome}, int  {\i nif}, int  {\i nutente}, {\b Pulseira}  {\i pul}, {\b Prioridade}  {\i pri}, string  {\i hist}, string  {\i sint})}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+construtor que premite a inicializacao personalizada dos atributos do doente }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i nome} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i nif} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i nutente} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i pul} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i hist} \cell }{\cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 77         \{\par
+78             idDoente = Id;\par
+79             this.nome = nome;\par
+80             this.nif = nif;\par
+81             this.nutente = nutente;\par
+82             pulseira = pul;\par
+83             prioridade = pri;\par
+84             historico = hist;\par
+85             sintomas = sint;\par
+86             totDoe++;\par
+87         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v AtualizarHistorico\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:AtualizarHistorico}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Intervenientes.Doente.AtualizarHistorico (string  {\i historico})}}
+\par
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 258         \{\par
+259             this.historico += {\cf22 "\\n"} + historico;\par
+260         \}\par
+}
+}
+{\xe \v ObterInformacao\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:ObterInformacao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Intervenientes.Doente.ObterInformacao ()}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 264         \{\par
+265             {\cf19 return} ${\cf22 "ID: \{idDoente\}, Nome: \{nome\}, Pulseira: \{pulseira\}, Prioridade:\{prioridade\} Hist\'F3rico M\'E9dico: \{historico\}"};\par
+266         \}\par
+}
+}
+{\xe \v ToString\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:ToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override string Intervenientes.Doente.ToString ()}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Subcreve o metodo ToString par fornecer uma ficha do doente. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+\par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 249         \{\par
+250             {\cf19 return} String.Format({\cf22 "Ficha de Doente=> Nome: \{0\} -  Nif: \{1\} - N.utente: \{2\} - Pulseira: \{3\}- Prioridade: \{4\} - Historico: \{5\} - Sintomas: \{6\}\\n"}, nome, nif, nutente, pulseira, prioridade, historico, sintomas);\par
+251             {\cf20 //return base.ToString();}\par
+252         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos dados membro\par
+\pard\plain 
+{\xe \v historico\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:historico}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Intervenientes.Doente.historico}}
+\par
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v idDoente\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:idDoente}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Doente.idDoente}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v nif\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:nif}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Doente.nif}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v nutente\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:nutente}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Doente.nutente}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v prioridade\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:prioridade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Prioridade} Intervenientes.Doente.prioridade}}
+\par
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v pulseira\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:pulseira}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Pulseira} Intervenientes.Doente.pulseira}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v sintomas\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:sintomas}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Intervenientes.Doente.sintomas}}
+\par
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das propriedades\par
+\pard\plain 
+{\xe \v Historico\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:Historico}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Intervenientes.Doente.Historico{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o historico do doente }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 199         \{\par
+200             {\cf17 set}\par
+201             \{\par
+202                 historico = value;\par
+203             \}\par
+204             {\cf17 get}\par
+205             \{\par
+206                 {\cf19 return} historico;\par
+207             \}\par
+208         \}\par
+}
+}
+{\xe \v IdDoente\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:IdDoente}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Doente.IdDoente{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 107         \{ {\cf20 //inserir valores}\par
+108             {\cf17 set}\par
+109             \{\par
+110                 idDoente = value;\par
+111             \}\par
+112             {\cf20 //manda para fora valores}\par
+113             {\cf17 get}\par
+114             \{\par
+115                 {\cf19 return} idDoente;\par
+116             \}\par
+117         \}\par
+}
+}
+{\xe \v Nif\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:Nif}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Doente.Nif{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o nif do doente }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 141         \{\par
+142             {\cf17 set}\par
+143             \{\par
+144                 nif = value;\par
+145             \}\par
+146             {\cf17 get}\par
+147             \{\par
+148                 {\cf19 return} nif;\par
+149             \}\par
+150         \}\par
+}
+}
+{\xe \v Nome\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:Nome}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Intervenientes.Doente.Nome{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o nome do doente }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 123         \{\par
+124             {\cf20 //inserir valores}\par
+125             {\cf17 set}\par
+126             \{\par
+127                 nome = value;\par
+128             \}\par
+129             {\cf20 //manda para fora valores}\par
+130             {\cf17 get}\par
+131             \{\par
+132                 {\cf19 return} nome;\par
+133             \}\par
+134         \}\par
+}
+}
+{\xe \v Nutente\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:Nutente}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Doente.Nutente{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o n.utente do doente }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 156         \{\par
+157             {\cf17 set}\par
+158             \{\par
+159                 nutente = value;\par
+160             \}\par
+161             {\cf17 get}\par
+162             \{\par
+163                 {\cf19 return} nutente;\par
+164             \}\par
+165         \}\par
+}
+}
+{\xe \v Prioridade\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:Prioridade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Prioridade} Intervenientes.Doente.Prioridade{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 184         \{\par
+185             {\cf17 set}\par
+186             \{\par
+187                 prioridade = value;\par
+188             \}\par
+189             {\cf17 get}\par
+190             \{\par
+191                 {\cf19 return} prioridade;\par
+192             \}\par
+193         \}\par
+}
+}
+{\xe \v Pulseira\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:Pulseira}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Pulseira} Intervenientes.Doente.Pulseira{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir a pulseira do doente }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 171         \{\par
+172             {\cf17 set}\par
+173             \{\par
+174                 pulseira = value;\par
+175             \}\par
+176             {\cf17 get}\par
+177             \{\par
+178                 {\cf19 return} pulseira;\par
+179             \}\par
+180         \}\par
+}
+}
+{\xe \v Sintomas\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:Sintomas}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Intervenientes.Doente.Sintomas{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o sintomas do doente }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 214         \{\par
+215             {\cf17 set}\par
+216             \{\par
+217                 sintomas = value;\par
+218             \}\par
+219             {\cf17 get}\par
+220             \{\par
+221                 {\cf19 return} sintomas;\par
+222             \}\par
+223         \}\par
+}
+}
+{\xe \v TotDoe\:Intervenientes.Doente}
+{\xe \v Intervenientes.Doente\:TotDoe}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Doente.TotDoe{\f2 [static]}, {\f2 [get]}}}
+\par
+{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter o total de doentes criados }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 231         \{\par
+232             {\cf17 get}\par
+233             \{\par
+234                 {\cf19 return} totDoe;\par
+235             \}\par
+236             {\cf20 //set\{\} //valor apenas controlado internamente}\par
+237         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir do seguinte ficheiro:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/{\b Doente.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia \'E0 classe Hospital.Local\par \pard\plain 
+{\tc\tcl2 \v Hospital.Local}
+{\xe \v Hospital.Local}
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+Diagrama de heran\'E7as da classe Hospital.Local{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_hospital_1_1_local.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Propriedades\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Estado} {\b estado}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das propriedades\par
+\pard\plain 
+{\xe \v estado\:Hospital.Local}
+{\xe \v Hospital.Local\:estado}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Estado} Hospital.Local.estado{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 16 \{ {\cf17 get}; {\cf17 set}; \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir do seguinte ficheiro:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/{\b Local.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia \'E0 classe Intervenientes.Medico\par \pard\plain 
+{\tc\tcl2 \v Intervenientes.Medico}
+{\xe \v Intervenientes.Medico}
+{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+Diagrama de heran\'E7as da classe Intervenientes.Medico{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_intervenientes_1_1_medico.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Medico} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construtor por omiss\'E3o de um medico inicializa os valores padrao de um medico. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Medico} (string {\b nome}, {\b Especialidade} esp, int {\b nidentificacao})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+construtor que premite a inicializacao personalizada dos atributos do medico }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override string {\b ToString} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Subcreve o metodo ToString par fornecer uma ficha do medico. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Especialidade} {\b especialidade}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b nidentificacao}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Propriedades\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b Nome}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o nome do medico }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Especialidade} {\b Especialidade}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir a especialidade do medico }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b NIfentificacao}{\f2  [get, set]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o numero de identificacao do medico }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static int {\b TotMed}{\f2  [get]}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter o total de medicos criados }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Propriedades herdados de {\b Intervenientes.Pessoa}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b nome}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos Construtores & Destrutor\par
+\pard\plain 
+{\xe \v Medico\:Intervenientes.Medico}
+{\xe \v Intervenientes.Medico\:Medico}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Intervenientes.Medico.Medico ()}}
+\par
+{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Construtor por omiss\'E3o de um medico inicializa os valores padrao de um medico. }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 42         \{\par
+43             nome = {\cf22 "Joaquim"};\par
+44             especialidade = Especialidade.PEDIATRIA;\par
+45             nidentificacao = 25;\par
+46             totMed++;\par
+47         \}\par
+}
+}
+{\xe \v Medico\:Intervenientes.Medico}
+{\xe \v Intervenientes.Medico\:Medico}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Intervenientes.Medico.Medico (string  {\i nome}, {\b Especialidade}  {\i esp}, int  {\i nidentificacao})}}
+\par
+{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+construtor que premite a inicializacao personalizada dos atributos do medico }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i nome} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i esp} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i nidentificacao} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i horaent} \cell }{\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i horasaida} \cell }{\cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 58         \{\par
+59             this.nome = nome;\par
+60             especialidade = esp;\par
+61             this.nidentificacao = nidentificacao;\par
+62             totMed++;\par
+63         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v ToString\:Intervenientes.Medico}
+{\xe \v Intervenientes.Medico\:ToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override string Intervenientes.Medico.ToString ()}}
+\par
+{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Subcreve o metodo ToString par fornecer uma ficha do medico. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+\par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 152         \{\par
+153             {\cf19 return} String.Format({\cf22 "Ficha de Medico=> Nome: \{0\} - Especialidade: \{1\} - N\'FAmero de identificacao: \{2\}\\n"}, nome, especialidade, nidentificacao);\par
+154             {\cf20 //return base.ToString();}\par
+155         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos dados membro\par
+\pard\plain 
+{\xe \v especialidade\:Intervenientes.Medico}
+{\xe \v Intervenientes.Medico\:especialidade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Especialidade} Intervenientes.Medico.especialidade}}
+\par
+{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v nidentificacao\:Intervenientes.Medico}
+{\xe \v Intervenientes.Medico\:nidentificacao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Medico.nidentificacao}}
+\par
+{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das propriedades\par
+\pard\plain 
+{\xe \v Especialidade\:Intervenientes.Medico}
+{\xe \v Intervenientes.Medico\:Especialidade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Especialidade} Intervenientes.Medico.Especialidade{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir a especialidade do medico }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 100         \{\par
+101             {\cf17 set}\par
+102             \{\par
+103                 especialidade = value;\par
+104             \}\par
+105             {\cf17 get}\par
+106             \{\par
+107                 {\cf19 return} especialidade;\par
+108             \}\par
+109         \}\par
+}
+}
+{\xe \v NIfentificacao\:Intervenientes.Medico}
+{\xe \v Intervenientes.Medico\:NIfentificacao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Medico.NIfentificacao{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o numero de identificacao do medico }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 116         \{\par
+117             {\cf17 set}\par
+118             \{\par
+119                 nidentificacao = value;\par
+120             \}\par
+121             {\cf17 get}\par
+122             \{\par
+123                 {\cf19 return} nidentificacao;\par
+124             \}\par
+125         \}\par
+}
+}
+{\xe \v Nome\:Intervenientes.Medico}
+{\xe \v Intervenientes.Medico\:Nome}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Intervenientes.Medico.Nome{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter ou definir o nome do medico }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 82         \{\par
+83             {\cf20 //inserir valores}\par
+84             {\cf17 set}\par
+85             \{\par
+86                 nome = value;\par
+87             \}\par
+88             {\cf20 //manda para fora valores}\par
+89             {\cf17 get}\par
+90             \{\par
+91                 {\cf19 return} nome;\par
+92             \}\par
+93         \}\par
+}
+}
+{\xe \v TotMed\:Intervenientes.Medico}
+{\xe \v Intervenientes.Medico\:TotMed}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Intervenientes.Medico.TotMed{\f2 [static]}, {\f2 [get]}}}
+\par
+{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+propriedade que premite obter o total de medicos criados }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 133         \{\par
+134             {\cf17 get}\par
+135             \{\par
+136                 {\cf19 return} totMed;\par
+137             \}\par
+138             {\cf20 //set\{\} //valor apenas controlado internamente}\par
+139         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir do seguinte ficheiro:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/{\b Medico.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia \'E0 classe Intervenientes.Pessoa\par \pard\plain 
+{\tc\tcl2 \v Intervenientes.Pessoa}
+{\xe \v Intervenientes.Pessoa}
+{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+Diagrama de heran\'E7as da classe Intervenientes.Pessoa{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_intervenientes_1_1_pessoa.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Propriedades\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b nome}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das propriedades\par
+\pard\plain 
+{\xe \v nome\:Intervenientes.Pessoa}
+{\xe \v Intervenientes.Pessoa\:nome}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Intervenientes.Pessoa.nome{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12 \{ {\cf17 get}; {\cf17 set}; \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir do seguinte ficheiro:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/{\b Pessoa.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia \'E0 classe Hospital.SalaaEspera\par \pard\plain 
+{\tc\tcl2 \v Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera}
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+Diagrama de heran\'E7as da classe Hospital.SalaaEspera{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_hospital_1_1_salaa_espera.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SalaaEspera} (int cpMaxima)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b AdicionarDoenteSalaEspera} ({\b Doente} d1)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b ContarDoentes} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b MostrarLugaresOcupados} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b ExisteDoenteSalaEspera} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Verifica se um doente com o nome e pulseira especificos existe na sala de espera. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b QuantosDoentesExistemSalaEspera} ({\b Pulseira} pulseira)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Verifica quantos doentes da mesma pulseira existem na sala de espera. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+List< {\b Doente} > {\b ObterDoentesPorPrioridade} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Propriedades\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+List< {\b Doente} > {\b doente}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b capacidadeMaxima}{\f2  [get, set]}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+List< string > {\b recursosDisponiveis}{\f2  [get, set]}\par
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Propriedades herdados de {\b Hospital.Local}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Estado} {\b estado}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos Construtores & Destrutor\par
+\pard\plain 
+{\xe \v SalaaEspera\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:SalaaEspera}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Hospital.SalaaEspera.SalaaEspera (int  {\i cpMaxima})}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23         \{\par
+24             doente = {\cf17 new} List<Doente>();\par
+25             capacidadeMaxima = cpMaxima;\par
+26             estado = Estado.VAZIO;\par
+27             recursosDisponiveis = {\cf17 new} List<string>();\par
+28         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v AdicionarDoenteSalaEspera\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:AdicionarDoenteSalaEspera}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.SalaaEspera.AdicionarDoenteSalaEspera ({\b Doente}  {\i d1})}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 34         \{\par
+35             doente.Add(d1);\par
+36         \}\par
+}
+}
+{\xe \v ContarDoentes\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:ContarDoentes}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Hospital.SalaaEspera.ContarDoentes ()}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 39         \{\par
+40             {\cf19 return} doente.Count;\par
+41         \}\par
+}
+}
+{\xe \v ExisteDoenteSalaEspera\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:ExisteDoenteSalaEspera}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Hospital.SalaaEspera.ExisteDoenteSalaEspera ()}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Verifica se um doente com o nome e pulseira especificos existe na sala de espera. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i nome} \cell }{O nome do doente a ser verificado\cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i pulseira} \cell }{A pulseira do doente a ser verificado\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+True se o doente existe, false se n\'E3o\par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 71         \{\par
+72             {\cf19 return} doente.Count > 0;\par
+73         \}\par
+}
+}
+{\xe \v MostrarLugaresOcupados\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:MostrarLugaresOcupados}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.SalaaEspera.MostrarLugaresOcupados ()}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 47         \{\par
+48             {\cf19 if} (doente.Count > 0)\par
+49             \{\par
+50                 Console.WriteLine({\cf22 "Lugares ocupados na sala de espera:"});\par
+51                 {\cf19 foreach} (var doente {\cf19 in} doente)\par
+52                 \{\par
+53                     Console.WriteLine(${\cf22 "- \{doente.nome\}"});\par
+54                 \}\par
+55             \}\par
+56             {\cf19 else}\par
+57             \{\par
+58                 Console.WriteLine({\cf22 "N\'E3o h\'E1 doentes na sala de espera no momento."});\par
+59             \}\par
+60         \}\par
+}
+}
+{\xe \v ObterDoentesPorPrioridade\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:ObterDoentesPorPrioridade}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+List< {\b Doente} > Hospital.SalaaEspera.ObterDoentesPorPrioridade ()}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 86         \{\par
+87             {\cf19 return} doente.OrderByDescending(p => p.Prioridade).ToList();\par
+88         \}\par
+}
+}
+{\xe \v QuantosDoentesExistemSalaEspera\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:QuantosDoentesExistemSalaEspera}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Hospital.SalaaEspera.QuantosDoentesExistemSalaEspera ({\b Pulseira}  {\i pulseira})}}
+\par
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Verifica quantos doentes da mesma pulseira existem na sala de espera. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i pulseira} \cell }{A pulseira para a qual contar os doentes\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+O numero de doentes com a pulseira especificada na sala de espera\par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 81         \{\par
+82             {\cf19 return} doente.Count(p => p.Pulseira == pulseira);\par
+83         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das propriedades\par
+\pard\plain 
+{\xe \v capacidadeMaxima\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:capacidadeMaxima}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Hospital.SalaaEspera.capacidadeMaxima{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 14 \{ {\cf17 get}; {\cf17 set}; \}\par
+}
+}
+{\xe \v doente\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:doente}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+List<{\b Doente}> Hospital.SalaaEspera.doente{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 13 \{ {\cf17 get}; {\cf17 set}; \}\par
+}
+}
+{\xe \v recursosDisponiveis\:Hospital.SalaaEspera}
+{\xe \v Hospital.SalaaEspera\:recursosDisponiveis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+List<string> Hospital.SalaaEspera.recursosDisponiveis{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 15 \{ {\cf17 get}; {\cf17 set}; \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir do seguinte ficheiro:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/{\b SalaaEspera.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia \'E0 classe Hospital.Sistema\par \pard\plain 
+{\tc\tcl2 \v Hospital.Sistema}
+{\xe \v Hospital.Sistema}
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Sistema} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b RegistarDoente} (int id, string nome, int nif, int nutente, {\b Pulseira} pulseira, {\b Prioridade} prioridade, string historico, string sintomas)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b RegistarMedico} (string nomeMedico, {\b Especialidade} especialidade, int nidentificacao)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b AtualizarHistorico} (int id, string historico)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b ObterInformacao} (int id)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b AtribuirMedico} (int idDoente, int nid)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b RealizarConsulta} (int id, {\b Medico} medico)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b RealizarTriagem} ({\b Doente} doente)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b EncaminharParaSalaEspera} ({\b Doente} doente, {\b SalaaEspera} salaEspera)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o dos Construtores & Destrutor\par
+\pard\plain 
+{\xe \v Sistema\:Hospital.Sistema}
+{\xe \v Hospital.Sistema\:Sistema}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Hospital.Sistema.Sistema ()}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 18         \{\par
+19             listaDeEspera = {\cf17 new} List<Doente>();\par
+20             listaDeMedicos = {\cf17 new} List<Medico>();\par
+21         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documenta\'E7\'E3o das fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v AtribuirMedico\:Hospital.Sistema}
+{\xe \v Hospital.Sistema\:AtribuirMedico}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.Sistema.AtribuirMedico (int  {\i idDoente}, int  {\i nid})}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 92         \{\par
+93             Doente doente = listaDeEspera.Find(d => d.idDoente == idDoente);\par
+94             Medico medico = listaDeMedicos.Find(m => m.nidentificacao == nid);\par
+95 \par
+96             {\cf19 if} (doente != {\cf17 null} && medico != {\cf17 null})\par
+97             \{\par
+98                 {\cf20 // Aqui voc\'EA pode adicionar l\'F3gica para atribuir o m\'E9dico ao paciente, se necess\'E1rio}\par
+99                 Console.WriteLine(${\cf22 "M\'E9dico \{medico.Nome\} atribu\'EDdo ao doente \{doente.Nome\}."});\par
+100             \}\par
+101             {\cf19 else}\par
+102             \{\par
+103                 Console.WriteLine({\cf22 "Doente ou m\'E9dico n\'E3o encontrado."});\par
+104             \}\par
+105         \}\par
+}
+}
+{\xe \v AtualizarHistorico\:Hospital.Sistema}
+{\xe \v Hospital.Sistema\:AtualizarHistorico}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.Sistema.AtualizarHistorico (int  {\i id}, string  {\i historico})}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 62         \{\par
+63             Doente doente = listaDeEspera.Find(d => d.idDoente == {\cf18 id});\par
+64 \par
+65             {\cf19 if} (doente != {\cf17 null})\par
+66             \{\par
+67                 doente.AtualizarHistorico(historico);\par
+68                 Console.WriteLine(${\cf22 "Hist\'F3rico atualizado para o doente \{doente.Nome\} (ID: \{doente.idDoente\})."});\par
+69             \}\par
+70             {\cf19 else}\par
+71             \{\par
+72                 Console.WriteLine(${\cf22 "Doente com ID \{id\} n\'E3o encontrado na lista de espera."});\par
+73             \}\par
+74         \}\par
+}
+}
+{\xe \v EncaminharParaSalaEspera\:Hospital.Sistema}
+{\xe \v Hospital.Sistema\:EncaminharParaSalaEspera}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.Sistema.EncaminharParaSalaEspera ({\b Doente}  {\i doente}, {\b SalaaEspera}  {\i salaEspera})}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 164         \{\par
+165             {\cf20 // Realizar procedimentos de triagem}\par
+166             RealizarTriagem(doente);\par
+167 \par
+168             {\cf20 // Ap\'F3s a triagem, encaminhar o doente para a sala de espera}\par
+169             salaEspera.AdicionarDoenteSalaEspera(doente);\par
+170             Console.WriteLine(${\cf22 "Doente \{doente.nome\} encaminhado para a sala de espera."});\par
+171         \}\par
+}
+}
+{\xe \v ObterInformacao\:Hospital.Sistema}
+{\xe \v Hospital.Sistema\:ObterInformacao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Hospital.Sistema.ObterInformacao (int  {\i id})}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 77         \{\par
+78 \par
+79             Doente doente = listaDeEspera.Find(d => d.idDoente == {\cf18 id});\par
+80 \par
+81             {\cf19 if} (doente != {\cf17 null})\par
+82             \{\par
+83                 {\cf19 return} doente.ObterInformacao();\par
+84             \}\par
+85             {\cf19 else}\par
+86             \{\par
+87                 {\cf19 return} ${\cf22 "Doente com ID \{id\} n\'E3o encontrado na lista de espera."};\par
+88             \}\par
+89         \}\par
+}
+}
+{\xe \v RealizarConsulta\:Hospital.Sistema}
+{\xe \v Hospital.Sistema\:RealizarConsulta}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.Sistema.RealizarConsulta (int  {\i id}, {\b Medico}  {\i medico})}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 108         \{\par
+109             Doente doente = listaDeEspera.Find(d => d.idDoente == {\cf18 id});\par
+110 \par
+111             {\cf19 if} (doente != {\cf17 null})\par
+112             \{\par
+113                 Consultorio consultorioDisponivel = consultorios.FirstOrDefault(c => c.ExisteMedicoConsultorio(medico) && c.ExisteDoenteConsultorio() == {\cf17 null});\par
+114 \par
+115                 {\cf19 if} (consultorioDisponivel != {\cf17 null})\par
+116                 \{\par
+117                     Medico medicoResponsavel = consultorioDisponivel.medicoResponsavel;\par
+118 \par
+119                     {\cf20 // Simula\'E7\'E3o de realiza\'E7\'E3o da consulta}\par
+120                     Console.WriteLine(${\cf22 "Consulta realizada para o doente \{doente.nome\} no consult\'F3rio \{consultorioDisponivel.numero\} com o m\'E9dico \{medicoResponsavel.nome\}."});\par
+121 \par
+122                     {\cf20 // Associar o doente ao consult\'F3rio ap\'F3s a consulta}\par
+123                     consultorioDisponivel.doenteConsultorio = doente;\par
+124                 \}\par
+125                 {\cf19 else}\par
+126                 \{\par
+127                     Console.WriteLine({\cf22 "N\'E3o h\'E1 consult\'F3rios dispon\'EDveis para realizar a consulta."});\par
+128                 \}\par
+129             \}\par
+130             {\cf19 else}\par
+131             \{\par
+132                 Console.WriteLine(${\cf22 "Doente com ID \{id\} n\'E3o encontrado na lista de espera."});\par
+133             \}\par
+134         \}\par
+}
+}
+{\xe \v RealizarTriagem\:Hospital.Sistema}
+{\xe \v Hospital.Sistema\:RealizarTriagem}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.Sistema.RealizarTriagem ({\b Doente}  {\i doente})}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 137         \{\par
+138             SalaaEspera salaEspera = {\cf17 new} SalaaEspera(200);\par
+139             {\cf19 switch} (doente.Pulseira)\par
+140             \{\par
+141                 {\cf19 case} Pulseira.VERMELHA:\par
+142                     doente.Prioridade = Prioridade.MUITO_URGENTE;\par
+143                     {\cf19 break};\par
+144                 {\cf19 case} Pulseira.AMARELA:\par
+145                     doente.Prioridade = Prioridade.URGENTE;\par
+146                     {\cf19 break};\par
+147                 {\cf19 case} Pulseira.VERDE:\par
+148                     doente.Prioridade = Prioridade.POUCO_URGENTE;\par
+149                     {\cf19 break};\par
+150                 {\cf19 default}:\par
+151                     doente.Prioridade = Prioridade.NAO_ESPECIFICADO;\par
+152                     {\cf19 break};\par
+153             \}\par
+154             EncaminharParaSalaEspera(doente, salaEspera);\par
+155 \par
+156             {\cf20 // Mensagem simulada de triagem}\par
+157             Console.WriteLine(${\cf22 "Triagem realizada para o paciente \{doente.nome\}. Prioridade: \{doente.prioridade\}"});\par
+158 \par
+159             {\cf20 // Adicionar o doente \'E0 lista de espera ap\'F3s a triagem}\par
+160             listaDeEspera.Add(doente);\par
+161         \}\par
+}
+}
+{\xe \v RegistarDoente\:Hospital.Sistema}
+{\xe \v Hospital.Sistema\:RegistarDoente}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.Sistema.RegistarDoente (int  {\i id}, string  {\i nome}, int  {\i nif}, int  {\i nutente}, {\b Pulseira}  {\i pulseira}, {\b Prioridade}  {\i prioridade}, string  {\i historico}, string  {\i sintomas})}}
+\par
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 25         \{\par
+26             Doente novoDoente = {\cf17 new} Doente({\cf18 id}, nome, nif, nutente, pulseira, prioridade, historico, sintomas);\par
+27             listaDeEspera.Add(novoDoente);\par
+28             Console.WriteLine({\cf22 "Doente \{id\} registado com pulseira \{pulseira\} na lista de espera."});\par
+29 \par
+30             EncaminharParaTriagem(novoDoente); {\cf20 // Chamando fun\'E7\'E3o para encaminhar o paciente para triagem}\par
+31         \}\par
+}
+}
+{\xe \v RegistarMedico\:Hospital.Sistema}
+{\xe \v Hospital.Sistema\:RegistarMedico}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Hospital.Sistema.RegistarMedico (string  {\i nomeMedico}, {\b Especialidade}  {\i especialidade}, int  {\i nidentificacao})}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 34         \{\par
+35             Medico novoMedico = {\cf17 new} Medico(nomeMedico, especialidade, nidentificacao);\par
+36             listaDeMedicos.Add(novoMedico);\par
+37             Console.WriteLine(${\cf22 "M\'E9dico \{nomeMedico\} registado com especialidade \{especialidade\}."});\par
+38         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir do seguinte ficheiro:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/{\b Sistema.cs}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documenta\'E7\'E3o do ficheiro{\tc \v Documenta\'E7\'E3o do ficheiro}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/Program.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/Program.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/Program.cs}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b GereHospital.Program}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b GereHospital}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/Properties/AssemblyInfo.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/Properties/AssemblyInfo.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/GereHospital/Properties/AssemblyInfo.cs}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/Consultorio.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/Consultorio.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/Consultorio.cs}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Hospital.Consultorio}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Hospital}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/Local.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/Local.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/Local.cs}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Hospital.Local}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Hospital}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumera\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Hospital.Estado} \{ {\b Hospital.VAZIO}
+, {\b Hospital.OCUPADO}
+ \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/Hospital.AssemblyInfo.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/Hospital.AssemblyInfo.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/Hospital.AssemblyInfo.cs}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/Hospital.GlobalUsings.g.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/Hospital.GlobalUsings.g.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/obj/Debug/net8.0/Hospital.GlobalUsings.g.cs}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/SalaaEspera.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/SalaaEspera.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/SalaaEspera.cs}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Hospital.SalaaEspera}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Hospital}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/Sistema.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/Sistema.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Hospital/Sistema.cs}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Hospital.Sistema}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Hospital}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/Doente.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/Doente.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/Doente.cs}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Intervenientes.Doente}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Intervenientes}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumera\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Intervenientes.Pulseira} \{ {\b Intervenientes.VERDE}
+, {\b Intervenientes.AMARELA}
+, {\b Intervenientes.VERMELHA}
+, {\b Intervenientes.NAO_ESPECIFICADA}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Intervenientes.Prioridade} \{ {\b Intervenientes.POUCO_URGENTE}
+, {\b Intervenientes.URGENTE}
+, {\b Intervenientes.MUITO_URGENTE}
+, {\b Intervenientes.NAO_ESPECIFICADO}
+ \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/Medico.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/Medico.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/Medico.cs}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Intervenientes.Medico}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Intervenientes}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumera\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Intervenientes.Especialidade} \{ {\b Intervenientes.CARDIOLOGIA}
+, {\b Intervenientes.UROLOGIA}
+, {\b Intervenientes.PEDIATRIA}
+, {\b Intervenientes.CIRUGIA}
+, {\b Intervenientes.ORTOPEDIA}
+, {\b Intervenientes.NAO_ESPECIFICADA}
+ \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/Intervenientes.AssemblyInfo.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/Intervenientes.AssemblyInfo.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/Intervenientes.AssemblyInfo.cs}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/Intervenientes.GlobalUsings.g.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/Intervenientes.GlobalUsings.g.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/obj/Debug/net8.0/Intervenientes.GlobalUsings.g.cs}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia ao ficheiro 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/Pessoa.cs\par \pard\plain 
+{\tc\tcl2 \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/Pessoa.cs}
+{\xe \v 26055,26057,26049_Pratica_POO_EIM_Fase2/26055,26057,26049_Pratica_POO_EIM_Fase2/Intervenientes/Pessoa.cs}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Intervenientes.Pessoa}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Intervenientes}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CDndice\par 
+\pard\plain 
+{\tc \v \'CDndice}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
